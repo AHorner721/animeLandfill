@@ -12,7 +12,9 @@ function rollingQuotes(){
         `"Those who have laid eyes on a Gundam shall not live to tell about it." - Trowa Barton, Mobile Suit Gundam Wing`,
         `"Don't believe in yourself. Believe in me! Believe in the Kamina who believes in you!" - Kamina, Gurren Lagann`,
         `"Let's see ya grit those teeth!" - Kamina, Gurren Lagann`,
-        `"I will face tomorrow." - Nia Teppelin, Gurren Lagann`
+        `"I will face tomorrow." - Nia Teppelin, Gurren Lagann`,
+        `"Mission Complete." - Heero Yuy, Mobile Suit Gundam Wing`,
+        `"You've got such a gloomy personality, why don't you just give up and stop pretending to be human?" - Duo Maxwell, Mobile Suit Gundam Wing`
     ];
 
     const time = 8000;
