@@ -203,6 +203,9 @@ a:visited{
 }
 
 @media(max-width: 900px){
+    .landingImg{
+        background-position: 45%;
+    }
     #title{
         font-size: 50px;
         color: rgb(40, 126, 255);
@@ -219,10 +222,16 @@ a:visited{
         padding: 0 0 0 0;
     }
     .modal-content{
-        padding: 1rem 4rem;
+        padding: 1rem 2.5rem;
+    }
+    .img-Box{
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .close{
-        margin-right: -2rem;
+        font-size: .7rem;
+        margin-right: -1rem;
         margin-top: -1rem;
         margin-bottom: 2rem;
     }
