@@ -8,4 +8,3 @@ The webpage consists of:
 
 ## Webpage Preview
 ![Screenshot](/images/animeLandfill-screenshot1.JPG)
-![Screenshot](/images/animeLandfill-screenshot2.JPG)
