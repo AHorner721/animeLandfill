@@ -205,7 +205,7 @@ a:visited{
 @media(max-width: 900px){
     #title{
         font-size: 50px;
-        color: red;
+        color: rgb(40, 126, 255);
     }
     .quizBox{
         width: 95%;
