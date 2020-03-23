@@ -2,7 +2,7 @@
 Static anime webpage built with HTML, CSS, and JavaScript
 
 
-published on github pages: [github](https://ahorner721.github.io/animeLandfill/)
+published on github pages: [Anime Landfill](https://ahorner721.github.io/animeLandfill/)
 
 ## Contents
 The webpage consists of:
