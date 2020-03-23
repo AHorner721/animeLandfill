@@ -40,11 +40,7 @@ function gradeQuiz(){
     let numYes = 0;
     let level = document.querySelector('.level');
     let img = document.querySelector('.modal-img');
-
-    const imgList = [
-        "images/zero.gif", "images/one.gif", "images/two.gif",
-        "images/three.gif", "images/four.gif", "images/five.gif"
-    ];
+    
     question.forEach(ans => {
         if(ans.value == 1){
             numYes++;
