@@ -52,27 +52,27 @@ function gradeQuiz(){
     });
     switch(numYes){
         case 1:
-            img.src = imgList[numYes];
+            img.src = "images/one.gif";
             level.innerText = `Trash Level: Meh, almost empty.`;
             break;
         case 2:
-            img.src = imgList[numYes];
+            img.src = "images/two.gif";
             level.innerText = `Trash Level: Normal.`;
             break;
         case 3:
-            img.src = imgList[numYes];
+            img.src = "images/three.gif";
             level.innerText = `Trash Level: Half full. O_O'`;
             break;
         case 4:
-            img.src = imgList[numYes];
+            img.src = "images/four.gif";
             level.innerText = `Trash Level: Full. Very, very full.`;
             break;
         case 5:
-            img.src = imgList[numYes];
+            img.src = "images/five.gif";
             level.innerText = `Trash Level: Overflowing and not ashamed!`;
             break;
         default:
-            img.src = imgList[numYes];
+            img.src = "images/zero.gif";
             level.innerText = `Trash Level: non-existent. Watch more anime.`;
             break;
     }
