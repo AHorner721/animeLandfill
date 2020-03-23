@@ -7,5 +7,4 @@ The webpage consists of:
 2. A short anime quiz
 
 ## Webpage Preview
-<img src="/images/animeLandfill-screenshot1.JPG width="300">
-<img src="/images/animeLandfill-screenshot2.JPG width="300">
+<img src="images/animeLandfill-screenshot1.JPG width="300">
