@@ -1,0 +1,213 @@
+body{
+    margin: 0;
+    padding: 0%;
+    position: relative;
+}
+
+.landingImg{
+    border: 1px solid black;
+    width: 100%;
+    height: 400px;
+    /* background-color: pink; */
+    /* background-image: url(/images/moujib-aghrout-s9ESRUFnKDg-unsplash.jpg); */
+    background-image: url(/images/landingPic.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+    /* justify-content: center; */
+}
+
+#title{
+    font-size: 180px;
+    color: white;
+    text-align: center;
+    background: rgba(22, 22, 22, 1.0);
+    border-bottom: black 2px double;
+    margin-top: 0%;
+    margin-bottom: 5%;
+}
+
+.main{
+    text-align: center;
+}
+
+.quotesBox{
+    /* border: 1px solid black; */
+    text-align: center;
+    font-size: 2em;
+    margin-top: 0%;
+    margin-bottom: 5%;
+    padding: 2em;;
+}
+
+.quizBox{
+    border: 1px solid black;
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    padding: 3em;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+h2{
+    /* border: 1px solid black; */
+    font-size: 2em;
+    color: black;
+    /* background: black; */
+    /* padding: .7em; */
+    padding-bottom: 1em;
+    margin-bottom: 1%;
+}
+
+.quizImg{
+    width: 100%;
+    opacity: .9;
+    margin: 0%;
+}
+
+select{
+    appearance: none;
+    outline: none;
+    box-shadow: none;
+    background: white;
+    border: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0 0 0 .5em;
+    font-size: 1.5em;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+
+select:hover{
+    background: rgb(199, 218, 240);
+}
+
+.quiz{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 3.5em;
+    background: darkgrey;
+    overflow: hidden;
+    line-height: 3;
+    margin-top: 0%;
+}
+
+button{
+    margin: 5% 2% 0% 2%;
+    width: 90%;
+    outline: none;
+    border: outset 2px black;
+    background-color: rgb(199, 218, 240);
+    color: rgba(0, 0, 0, 0.9);
+    height: 2em;
+    padding: 0 1em 0 1em;
+    font-size: 2em;
+    line-height: 1em;
+    letter-spacing: .2em;
+    text-align: center;
+}
+
+button:hover{
+    color: white;
+    /* background-color: rgb(95, 120, 148); */
+    background-color: rgb(40, 126, 255);
+    /* transition: .3s ease; */
+    border: whitesmoke;
+    cursor: pointer;
+}
+
+.modal{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    /* background-size: cover; */
+    top:0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content{
+    text-align: center;
+    background: white;
+    padding: 5rem 8rem;
+    margin-top: 55%;
+    width: 50%;
+}
+
+.img-Box{
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+    width: 100%;
+    /* border: 2px red solid; */
+    /* margin-bottom: 4%; */
+}
+
+.modal-img{
+    width: 100%;
+}
+
+.level{
+    padding-top: 2rem;
+}
+
+.close{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: -6rem;
+    margin-top: -7rem;
+    margin-bottom: 5rem;
+    cursor: pointer;
+}
+
+.hidden{
+    display: none;
+}
+
+.close-btn{
+    width: 20px;
+    background: none;
+    outline: none;
+    border: none;
+    text-align: center;
+    justify-content: center;
+    padding: 1rem 1rem;
+}
+
+.close-btn:hover{
+    color: red;
+    background: none;
+}
+
+footer{
+    font-size: 25px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+    padding: 1em;
+}
+
+a{
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+@media(max-width: 900px){
+    #title{
+        font-size: 50px;
+        color: red;
+    }
+    .quizBox{
+        width: 95%;
+    }
+}

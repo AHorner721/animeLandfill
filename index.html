@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://kit.fontawesome.com/3330cc2414.js" crossorigin="anonymous"></script>
+    <title>Anime Landfill</title>
+</head>
+<body>
+    <header>
+        <div class="landingImg"></div>
+        <h1 id="title">Anime Landfill</h1>
+        <nav></nav>
+    </header>
+    
+    <div class="main">
+        <div class="quotesBox"><p class="quotes">"Rolling quotes" <br>- Anonymous</p></div>
+        <div class="quizBox">
+            <h2>Check Your Anime Trash Level</h2>
+            <img class="quizImg" src="/images/gary-chan-YzSZN3qvHeo-unsplash.jpg" alt="trashcan">
+            <div class="quiz">
+                <select name="Q1" id="question1" class="question">
+                    <option value="0">Q1: Given yourself an anime persona?</option>
+                    <option value="1">Yes</option>
+                    <option value="2">No</option>
+                </select>
+            </div>
+            <div class="quiz">
+                <select name="Q2" id="question2" class="question">
+                    <option value="0">Q2: Used random Japanese words in conversation?</option>
+                    <option value="1">Yes</option>
+                    <option value="2">No</option>
+                </select>
+            </div>
+            <div class="quiz">
+                <select name="Q3" id="question3" class="question">
+                    <option value="0">Q3: Cosplayed as an anime character?</option>
+                    <option value="1">Yes</option>
+                    <option value="2">No</option>
+                </select>
+            </div>
+            <div class="quiz">
+                <select name="Q4" id="question4" class="question">
+                    <option value="0">Q4: Purchased an anime body pillow? (Don't Lie)</option>
+                    <option value="1">Yes</option>
+                    <option value="2">No</option>
+                </select>
+            </div>
+            <div class="quiz">
+                <select name="Q5" id="question5" class="question">
+                    <option value="0">Q5: Do you have too many anime posters?</option>
+                    <option value="1">Yes</option>
+                    <option value="2">No</option>
+                </select>
+            </div>
+            <button class="submitQuiz" onclick="gradeQuiz();">SUBMIT</button>
+        </div>
+        <p>*Note: This quiz is not to be taken seriously.</p>
+    </div>
+
+    <div class="modal hidden">
+        <div class="modal-content">
+            <div class="close">
+                <button class="close-btn" onclick="resetQuiz();">X</button>
+            </div>
+            <div class="img-Box">
+                <img class="modal-img" src="/images/bruce-tang-nKO_1QyFh9o-unsplash.jpg" alt="result">
+            </div>
+            <h2 class="level">Trash Level: </h2>
+        </div>
+    </div>
+
+    <footer>
+        <h3>Follow @AshDev2020 <a href="https://www.twitter.com/AshDev2020"><i class="fab fa-twitter"></i></a></h3>
+    </footer>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
